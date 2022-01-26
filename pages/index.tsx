@@ -7,23 +7,7 @@ export default function Home() {
         <title>jg</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          I bought this domain because it looked cool.
-        </h1>
-      </main>
-
-      <footer className="flex h-24 w-full items-center justify-center">
-        <a
-          className="flex items-center justify-center"
-          href="https://jamesgwyer.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="https://jamesgwyer.com/james-white.png" alt="James Gwyer" className="ml-2 h-4" />
-        </a>
-      </footer>
+      <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script><div className="coinmarketcap-currency-widget" data-currencyid="1" data-base="USD" data-secondary="USD" data-ticker="false" data-rank="false" data-marketcap="false" data-volume="false" data-statsticker="false" data-stats="USD"></div>
     </div>
   )
 }
